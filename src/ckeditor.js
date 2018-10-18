@@ -26,6 +26,9 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 
+import CollaborativeEditing from '@ckeditor/ckeditor5-collaboration/src/collaborativeediting';
+import PresenceList from '@ckeditor/ckeditor5-collaboration/src/presencelist';
+
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
@@ -48,7 +51,9 @@ ClassicEditor.builtinPlugins = [
 	MediaEmbed,
 	Paragraph,
 	Table,
-	TableToolbar
+	TableToolbar,
+	CollaborativeEditing,
+	PresenceList
 ];
 
 // Editor configuration.
