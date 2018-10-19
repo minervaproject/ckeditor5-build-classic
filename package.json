@@ -28,6 +28,7 @@
 	"@ckeditor/ckeditor-cloud-services-core": "^2.0.0",
     "@ckeditor/ckeditor5-adapter-ckfinder": "^10.0.3",
     "@ckeditor/ckeditor5-autoformat": "^10.0.3",
+	"@ckeditor/ckeditor5-autosave": "^10.0.1",
 	"@ckeditor/ckeditor5-collaboration": "^11.0.0",
     "@ckeditor/ckeditor5-basic-styles": "^10.0.3",
     "@ckeditor/ckeditor5-block-quote": "^10.1.0",

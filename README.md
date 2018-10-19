@@ -1,3 +1,14 @@
+```bash
+
+nvm use
+yarn install
+npm run build
+
+cp build/ckeditor.js ~/GitHub/picasso/client/public/javascripts/dist # copy built file to dist manually for now
+
+```
+
+
 CKEditor 5 classic editor build
 ========================================
 

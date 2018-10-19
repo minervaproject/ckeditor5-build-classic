@@ -28,6 +28,8 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 
 import CollaborativeEditing from '@ckeditor/ckeditor5-collaboration/src/collaborativeediting';
 import PresenceList from '@ckeditor/ckeditor5-collaboration/src/presencelist';
+import Autosave from '@ckeditor/ckeditor5-autosave/src/autosave';
+import PendingActions from '@ckeditor/ckeditor5-core/src/pendingactions';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -52,8 +54,11 @@ ClassicEditor.builtinPlugins = [
 	Paragraph,
 	Table,
 	TableToolbar,
+
 	CollaborativeEditing,
-	PresenceList
+	PresenceList,
+	Autosave,
+	PendingActions,
 ];
 
 // Editor configuration.
