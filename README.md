@@ -1,12 +1,18 @@
-```bash
 
+## Overview
+
+This is a customized version of the CKEditor 5 Classic Editor; with minimal changes as a prototype for Seminar.
+
+To build:
+```bash
 nvm use
 yarn install
 npm run build
 
 cp build/ckeditor.js ~/GitHub/picasso/client/public/javascripts/dist # copy built file to dist manually for now
-
 ```
+
+Integration tests will live in `picasso`, since the template and instantiation of the editor will be in that repository.
 
 
 CKEditor 5 classic editor build
